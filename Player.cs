@@ -1,14 +1,19 @@
-public class Player {
-  private string name;
-  private int age;
-  
-  public Player(string name, int age) {
-    this.name = name;
-    this.age = age;
-  }
-
-  public string GetDetails()
+namespace SampleApp
+{
+  public class Player
   {
-    return "Player name: " + this.name + " Player age: " + this.age;
+    private string name;
+    private int age;
+
+    public Player(string name, int age)
+    {
+      this.name = name;
+      this.age = age;
+    }
+
+    public string GetDetails()
+    {
+      return $"Name: {this.name} Age: {this.age}";
+    }
   }
 }

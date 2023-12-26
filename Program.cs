@@ -1,4 +1,6 @@
-﻿// create List of 'Player' objects. 'Player' is defined in Player.cs.
+﻿using SampleApp;
+
+// create List of 'Player' objects. 'Player' is defined in Player.cs.
 var players = new List<Player>() { 
   new Player("Eric", 60), 
   new Player("Collin", 50) 
